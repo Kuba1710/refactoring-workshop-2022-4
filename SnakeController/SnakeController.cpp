@@ -117,7 +117,7 @@ bool perpendicular(Direction dir1, Direction dir2)
 {
     return isHorizontal(dir1) == isVertical(dir2);
 }
-} // namespace
+}  //namespace
 
 Controller::Segment Controller::calculateNewHead() const
 {
